@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #150401;
+}
+
+.head-sec{
+    max-width: 1440px;
+    background-color: #150401;
+    padding: 40px 0px 30px 0px;
+}
+
+#top-name{
+    color: gainsboro;
+    font-weight: 700;
+    font-size: 80px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+#tahsin{
+    color: #ff0066;
+}
+
+#hi{
+    color: #db5757;
+}
+
+.myName{
+    opacity: 90%;
+}
+
+
+.biography{
+    font-weight: 700;
+    color: aqua;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+#biography-p{
+    color: gainsboro;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 26pt;
+}  
+
+.head-img-me{
+    float: right;
+    width: 450px;
+    margin-top: -500px;
+    margin-right: 30px;
+}
+
+.important{
+    color: aqua;
+    font-weight: 800;
+    transition: ease 0.5s;
+}
+
+.important:hover{
+    padding: 5px 10px;
+    border: 2px solid red;
+}
+
+
+
+.service-sec{
+    max-width: 1440px;
+    background-color: #150401;
+    padding: 40px 0px 30px 0px;
+}
+
+#service-head-id{
+    font-size: 65px;
+    color: aqua;
+    text-align: center;
+}
+
+.box1{
+    padding: 30px 30px 30px 30px;
+    background-color: black;
+    border-radius: 26px;
+    margin: 10px 20px 10px 0px;
+}
+
+.first_column{
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.card{
+    white-space: pre-line;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.box1:hover{
+    box-shadow: 5px 5px 10px aqua;
+    transform: translate(1.1);
+}
+
+.box1 h2{
+    font-size: 36px;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: lightblue;
+}
+
+.box1 p{
+    line-height: 20pt;
+    color: lightblue;
+}
+
+
+
+
+
+
+
+.portfolio{
+    max-width: 1440px;
+    background-color: #150401;
+    padding: 40px 0px 30px 0px;
+}
+
+.portfolio-head{
+    color: aqua;
+    font-size: 45px;
+    text-align: center;
+}
+
+.port-center{
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+}
+
+.work{
+    width: 370px;
+    border-radius: 20px;
+}
+
+.work-1{
+    transition: transform 2s; 
+}
+
+.work-1:hover img{
+    transform: scale(1.1); 
+    box-shadow: 5px 5px 10px aqua;
+}
+
+
+
+
+
+
+
+
+footer p{
+    color: aqua;
+    text-align: center;
+}
+
+
+
+
+
